@@ -15,7 +15,7 @@ public class JavaIdentifierValidator {
             "synchronized", "this", "throw", "throws", "transient", "true",
             "try", "void", "volatile", "while" };
 
-    static final String canStartWithDigit = "^[0-9]";
+    static final String canStartWithDigit = "^[0-9].*";
 
     public static void main(String[] args) {
 
