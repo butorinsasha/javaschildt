@@ -3,8 +3,7 @@ package com.butorinsasha.chapter01javafundamentals;
 public class Example2 {
     public static void main(String[] args) {
 
-        int var1;
-        int var2;
+        int var1, var2;
 
         var1 = 1024;
 

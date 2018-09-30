@@ -7,7 +7,7 @@ public class JavaIdentifierValidator {
 
     static final String[] keywords = { "abstract", "assert", "boolean",
             "break", "byte", "case", "catch", "char", "class", "const",
-            "continue", "default", "do", "double", "else", "extends", "false",
+            "continue", "default", "do", "double", "else", "enum", "extends", "false",
             "final", "finally", "float", "for", "goto", "if", "implements",
             "import", "instanceof", "int", "interface", "long", "native",
             "new", "null", "package", "private", "protected", "public",
@@ -18,6 +18,8 @@ public class JavaIdentifierValidator {
     static final String canStartWithDigit = "^[0-9].*";
 
     public static void main(String[] args) {
+
+        System.out.println(keywords.length);
 
         List<String> keywordsList = Arrays.asList(keywords);
 
