@@ -1,4 +1,4 @@
-package com.butorinsasha.chapter01javafundamentals;
+package chapter01javafundamentals;
 
 public class ForDemo {
     public static void main(String[] args) {
