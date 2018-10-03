@@ -40,6 +40,7 @@ public class PrimeNums {
         }
         System.out.println();
         System.out.println("calculated for " + steps + " steps");
-//        System.out.println(primes);
+        System.out.println(primes);
+        System.out.println(primes.size());
     }
 }
