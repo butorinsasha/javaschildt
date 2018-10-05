@@ -11,7 +11,7 @@ public class KbIn {
         System.out.print("Press a key followed by ENTER: ");
         i = System.in.read(); // get a char;
         ch = (char) i;
-        System.out.println("Your key is: " + i);
+        System.out.println("Your key ASCII code is: " + i);
         System.out.println("Your key is: " + ch);
     }
 }
