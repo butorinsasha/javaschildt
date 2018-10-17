@@ -2,7 +2,7 @@ package usefull;
 
 import java.io.IOException;
 
-public class MyInputStringReader {
+public class MyInputStreamReader {
 
     /*Fields*/
     private int maxSize;
@@ -12,8 +12,8 @@ public class MyInputStringReader {
 
     /*Constructor by user defining of maxSize*/
 
-    public MyInputStringReader() {}
-    public MyInputStringReader(int maxSize) {
+    public MyInputStreamReader() {}
+    public MyInputStreamReader(int maxSize) {
         this.maxSize = maxSize;
     }
 

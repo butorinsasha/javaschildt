@@ -1,14 +1,14 @@
 package playground;
 
-import usefull.MyInputStringReader;
+import usefull.MyInputStreamReader;
 
 import java.io.IOException;
 
-public class MyInputStringReaderTest {
+public class MyInputStreamReaderTest {
     public static void main(String[] args) throws IOException {
 
-//        MyInputStringReader myStrReader1 = new MyInputStringReader(10);
-        MyInputStringReader myStrReader2 = new MyInputStringReader();
+//        MyInputStreamReader myStrReader1 = new MyInputStreamReader(10);
+        MyInputStreamReader myStrReader2 = new MyInputStreamReader();
 
 //        System.out.print("Enter your string of max length 10 here: ");
 //        String myStr1 = myStrReader1.readLine();
