@@ -64,9 +64,15 @@ public class EuclideanDivisionTest {
 
     @Test // rounds towards zero instead of the floor
     public void divisionTest() {
+
         Assert.assertEquals(2 , 7 / 3);
         Assert.assertEquals(-2 , -7 / 3);
         Assert.assertEquals(-2 , 7 / -3);
         Assert.assertEquals(2 , -7 / -3);
+
+        Assert.assertEquals(2, (int) (7.0 / 3.0));
+        Assert.assertEquals(-2, (int) (-7.0 / 3.0));
+        Assert.assertEquals(-2, (int) (7.0 / -3.0));
+        Assert.assertEquals(2, (int) (-7.0 / -3.0));
     }
 }

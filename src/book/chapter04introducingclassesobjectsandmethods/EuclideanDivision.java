@@ -14,8 +14,8 @@ public class EuclideanDivision {
 
     public static int quotion(int a, int b) {
         int q;
-        if (b > 0) q = (int) Math.floor( (int) (a / b) );
-        else if (b < 0) q = (int) Math.ceil( (int) (a / b) );
+        if (b > 0) q = (int) Math.floor( (float) a / (float) b);
+        else if (b < 0) q = (int) Math.ceil( (float) a / (float) b);
         else throw new ArithmeticException("Division by zero");
         return q;
     }
