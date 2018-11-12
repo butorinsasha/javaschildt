@@ -15,14 +15,14 @@ public class EuclideanDivisionTest {
 
     @Test
     public void positiveDividentByPositiveDivisorEuclideanDivisionTest() {
-        Assert.assertEquals(6, EuclideanDivision.quotion(27, 4));
-        Assert.assertEquals(3, EuclideanDivision.remainder(27, 4));
+        Assert.assertEquals(2, EuclideanDivision.quotion(7, 3));
+        Assert.assertEquals(1, EuclideanDivision.remainder(7, 3));
     }
 
     @Test
     public void positiveDividentByNegativeDivisorEuclideanDivisionTest() {
-        Assert.assertEquals(-37, EuclideanDivision.quotion(113, -3));
-        Assert.assertEquals(2, EuclideanDivision.remainder(113, -3));
+        Assert.assertEquals(-2, EuclideanDivision.quotion(7, -3));
+        Assert.assertEquals(1, EuclideanDivision.remainder(7, -3));
     }
 
     @Test
@@ -33,14 +33,14 @@ public class EuclideanDivisionTest {
 
     @Test
     public void zeroDividendByNegativeDivisorEuclideanDivisionTest() {
-        Assert.assertEquals(0, EuclideanDivision.quotion(0, -7));
-        Assert.assertEquals(0, EuclideanDivision.remainder(0, -7));
+        Assert.assertEquals(0, EuclideanDivision.quotion(0, -3));
+        Assert.assertEquals(0, EuclideanDivision.remainder(0, -3));
     }
 
     @Test
     public void zeroDividendByPositiveDivisorEuclideanDivisionTest() {
-        Assert.assertEquals(0, EuclideanDivision.quotion(0, 7));
-        Assert.assertEquals(0, EuclideanDivision.remainder(0, 7));
+        Assert.assertEquals(0, EuclideanDivision.quotion(0, 3));
+        Assert.assertEquals(0, EuclideanDivision.remainder(0, 3));
     }
 
     @Test (expected = ArithmeticException.class)
