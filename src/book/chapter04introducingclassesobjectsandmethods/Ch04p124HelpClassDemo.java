@@ -22,7 +22,6 @@ class HelpClassDemo {
 
             System.out.println("\n");
 
-
             hlpobj.helpOn(choice);
         }
     }
