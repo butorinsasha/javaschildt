@@ -1,6 +1,7 @@
 package tests.test20181101;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class GraphNode<T> {
@@ -8,15 +9,22 @@ public class GraphNode<T> {
     List<GraphNode<T>> connections;
     boolean isChecked;
 
-    public GraphNode(T t) {
-        this.data = t;
+    GraphNode(T t) {
+        data = t;
+        connections = new ArrayList<>();
     }
 
     void addNode(GraphNode<T> node) {
         connections.add(node);
     }
 
-    void print() {
-        System.out.println(this.data + " is checked");
+    void printData() {
+        System.out.println(data + " is checked");
+    }
+
+    @Override
+    public String toString() {
+        return "GraphNode{" +
+                "data=" + data + "}";
     }
 }
