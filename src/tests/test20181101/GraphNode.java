@@ -6,7 +6,7 @@ import java.util.List;
 
 public class GraphNode<T> {
     T data;
-    List<GraphNode<T>> connections;
+    List<GraphNode<?>> connections;
     boolean isChecked;
 
     GraphNode(T t) {
@@ -14,7 +14,7 @@ public class GraphNode<T> {
         connections = new ArrayList<>();
     }
 
-    void addNode(GraphNode<T> node) {
+    void addNode(GraphNode<?> node) {
         connections.add(node);
     }
 
@@ -22,9 +22,4 @@ public class GraphNode<T> {
         System.out.println(data + " is checked");
     }
 
-    @Override
-    public String toString() {
-        return "GraphNode{" +
-                "data=" + data + "}";
-    }
 }
