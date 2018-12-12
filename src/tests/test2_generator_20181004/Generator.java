@@ -1,4 +1,4 @@
-package tests.test2_20181004;
+package tests.test2_generator_20181004;
 
 public class Generator {
 

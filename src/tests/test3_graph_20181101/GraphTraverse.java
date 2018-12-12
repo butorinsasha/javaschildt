@@ -1,4 +1,4 @@
-package tests.test3_20181101;
+package tests.test3_graph_20181101;
 
 public class GraphTraverse {
     static void dfs (GraphNode<?> node) {
