@@ -1,6 +1,6 @@
 package book.chapter04introducingclassesobjectsandmethods;
 
-class HelpClassDemo {
+class Ch04p124HelpClassDemo {
     public static void main(String args[])
             throws java.io.IOException {
         char choice, ignore;
