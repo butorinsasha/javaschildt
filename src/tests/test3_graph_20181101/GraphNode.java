@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GraphNode<T> {
-    T data;
+    private T data;
     List<GraphNode<?>> connections;
     boolean isChecked;
 

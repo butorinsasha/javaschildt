@@ -10,6 +10,7 @@ public class Main {
         GraphNode<Character> node3 = new GraphNode<>('3');
         GraphNode<Boolean> node4 = new GraphNode<>(true);
 
+        /*Making connections between graphs*/
         node0.addNode(node4);
 
         node1.addNode(node0);
