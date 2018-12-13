@@ -17,7 +17,7 @@ public class Ch10p359DiskToScreen {
             }
         } catch (IOException ioe) {
             System.out.println("I/O Error: " + ioe);
-        } ;
+        }
 
     }
 }
