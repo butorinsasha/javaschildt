@@ -11,7 +11,9 @@ public class Ch10p359DiskToScreen {
         String str;
 
         // Create and use a FileReader wrapped in a BufferedReader.
-        try (BufferedReader br = new BufferedReader(new FileReader(args[0]))) {
+        try (BufferedReader br =
+                     new BufferedReader(
+                             new FileReader(args[0]))) {
             while ((str = br.readLine()) != null) {
                 System.out.println(str);
             }

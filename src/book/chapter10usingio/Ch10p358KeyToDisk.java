@@ -11,9 +11,9 @@ public class Ch10p358KeyToDisk {
     public static void main(String[] args) {
         String str;
 
-        BufferedReader br = new
-                BufferedReader(new
-                    InputStreamReader(System.in));
+        BufferedReader br =
+                new BufferedReader(
+                        new InputStreamReader(System.in));
 
         System.out.println("Enter text ('stop' to quit).");
 

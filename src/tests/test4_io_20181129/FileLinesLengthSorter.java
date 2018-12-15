@@ -8,14 +8,13 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-public class FIleLinesLengthSorter {
+public class FileLinesLengthSorter {
 
     public static String[] sortStrArray(String[] array){
-        //sort arrays by length before returning
         Arrays.sort(array, new Comparator<String>() {
             @Override
             public int compare(String a, String b) {
-                return Integer.compare(a.length(),b.length());//specifying compare type that is compare with length
+                return Integer.compare(a.length(),b.length());
             }
         });
         return array;
@@ -31,8 +30,6 @@ public class FIleLinesLengthSorter {
              FileWriter fw = new FileWriter(args[1]))
         {
             while ((line = br.readLine()) != null) {
-//                line = line + "\r\n";
-//                fw.write(line);
                 linesList.add(line);
             }
 
