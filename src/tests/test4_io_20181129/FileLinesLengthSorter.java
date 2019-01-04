@@ -38,7 +38,7 @@ public class FileLinesLengthSorter {
             sortedLinesArray = sortStrArray(linesArray);
 
             for (String sortedLine : sortedLinesArray) {
-                sortedLine = sortedLine + "\n\r";
+                sortedLine = sortedLine + "\n";
                 fw.write(sortedLine);
             }
 
