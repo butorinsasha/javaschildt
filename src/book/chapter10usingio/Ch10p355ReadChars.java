@@ -10,17 +10,17 @@ public class Ch10p355ReadChars {
     public static void main(String[] args) throws IOException {
         char ch;
 
-        // How to instanciate BufferedReader object bf
-        // that is linked to the cosole through System.in
-        BufferedReader br = new
-                BufferedReader(new
-                    InputStreamReader(System.in));
+        // How to instantiate BufferedReader object bf
+        // that is linked to the console through System.in
+        BufferedReader br =
+                new BufferedReader(
+                    new InputStreamReader(System.in));
 
         System.out.println("Enter characters, period to quit");
 
         // Read characters
         do {
-            ch = (char )br.read();
+            ch = (char) br.read();
             System.out.println(ch);
         } while (ch != '.');
     }

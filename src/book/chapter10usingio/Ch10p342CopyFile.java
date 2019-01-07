@@ -30,7 +30,7 @@ public class Ch10p342CopyFile {
             // copy from fin to fout code
 
             fin = new FileInputStream(args[0]);
-            fout = new FileOutputStream(args[1], true);
+            fout = new FileOutputStream(args[1], false);
 
             do {
                 i = fin.read();

@@ -1,5 +1,5 @@
 /**
- * To run this programm from commant line with specified filename as argument^
+ * To run this program from command line with specified filename as argument^
  *
  * cd /javaschildt/out/production/javaschildt
  * java book.chapter10usingio.Ch10p339ShowFile test.txt
