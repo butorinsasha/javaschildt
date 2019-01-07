@@ -20,7 +20,7 @@ public class FileLinesLengthSorter {
         });
 
 //        Arrays.sort(array, (a, b) -> Integer.compare(a.length(),b.length()));
-//        return array;
+        return array;
 
     }
 
