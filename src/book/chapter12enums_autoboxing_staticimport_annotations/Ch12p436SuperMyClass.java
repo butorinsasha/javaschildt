@@ -1,4 +1,4 @@
-package book;
+package book.chapter12enums_autoboxing_staticimport_annotations;
 
 public class Ch12p436SuperMyClass {
     private boolean boo;

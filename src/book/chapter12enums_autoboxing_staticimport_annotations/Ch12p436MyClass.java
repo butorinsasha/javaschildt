@@ -1,7 +1,5 @@
 package book.chapter12enums_autoboxing_staticimport_annotations;
 
-import book.Ch12p436SuperMyClass;
-
 @Deprecated
 class Ch12p436MyClass extends Ch12p436SuperMyClass {
 
