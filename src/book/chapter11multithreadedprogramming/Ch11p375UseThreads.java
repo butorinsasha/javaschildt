@@ -1,11 +1,11 @@
-package book.chapter11multithreadedprogramming.runnableinterface;
+package book.chapter11multithreadedprogramming;
 
 public class Ch11p375UseThreads {
     public static void main(String[] args) {
         System.out.println("main thread starting");
 
         // First cunstruct a Mythread object
-        MyThread mt = new MyThread("thrd1");
+        Ch11p375MyThread mt = new Ch11p375MyThread("thrd1");
 
         // Now, construct a thread from that object.
         Thread newThrd = new Thread(mt);

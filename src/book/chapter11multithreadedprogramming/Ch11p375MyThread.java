@@ -1,12 +1,12 @@
-package book.chapter11multithreadedprogramming.runnableinterface;
+package book.chapter11multithreadedprogramming;
 
 
 // Create a thread by implementing Runnable
-class MyThread implements Runnable {
+class Ch11p375MyThread implements Runnable {
     String thrdName;
 
     // Constructor
-    MyThread(String name) {
+    Ch11p375MyThread(String name) {
         this.thrdName = name;
     }
 
@@ -16,7 +16,7 @@ class MyThread implements Runnable {
         try {
             for (int count = 0; count < 10; count++) {
                 Thread.sleep(400);
-                System.out.println(thrdName + ":, count is " + count);
+                System.out.println(thrdName + ": count is " + count);
             }
         } catch(InterruptedException exc) {
             System.out.println((thrdName + " interrupted."));
