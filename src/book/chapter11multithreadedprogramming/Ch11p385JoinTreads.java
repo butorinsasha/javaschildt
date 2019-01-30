@@ -2,7 +2,7 @@ package book.chapter11multithreadedprogramming;
 
 import java.sql.SQLOutput;
 
-public class JoinTreads {
+public class Ch11p385JoinTreads {
     public static void main(String[] args) {
         System.out.println("Main thread starting");
 
