@@ -1,6 +1,6 @@
 package book.chapter11multithreadedprogramming;
 
-public class Ch11p378UsePageImproved {
+public class Ch11p378UseThreadsImproved {
     public static void main(String[] args) {
         System.out.println("Main thread is starting");
         Ch11p378MyThread mt = new Ch11p378MyThread("Child#1");
