@@ -71,9 +71,7 @@ public class Banner extends Applet implements Runnable{
     // Called when applet is terminated. This is the last method executed
     @Override
     public void destroy() {
-        System.out.println("***[5] destroy()***");
-        stopFlag = true;
-        t = null;
+        super.destroy();
     }
 
 
