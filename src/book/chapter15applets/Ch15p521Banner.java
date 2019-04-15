@@ -4,11 +4,11 @@ import java.applet.*;
 import java.awt.*;
 
 /*
-<applet code="Banner" width=300 height=50>
+<applet code="Ch15p521Banner" width=300 height=50>
 </applet>
 */
 
-public class Banner extends Applet implements Runnable{
+public class Ch15p521Banner extends Applet implements Runnable{
 
     String msg = " Java Rules the Web ";
     Thread t;
