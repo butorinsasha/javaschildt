@@ -4,9 +4,9 @@ import java.applet.Applet;
 import java.awt.*;
 
 /*
-<applet code="MouseEvents" width=300 hight=100>
+<applet code="Param" width=300 hight=100>
     <param name=author value="Aleksandr Butorin">
-    <param name=appletName value="MouseEvents">
+    <param name=appletName value="Param">
     <param name=version value=1>
 </applet>
 */
