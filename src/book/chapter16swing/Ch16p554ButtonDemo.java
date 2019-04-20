@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class Ch16p554ButtonDemo implements ActionListener {
+public class Ch16p554ButtonDemo {
 
     JLabel jlab;
 
@@ -25,8 +25,8 @@ public class Ch16p554ButtonDemo implements ActionListener {
         JButton jbtnUp = new JButton("Up");
         JButton jbtnDown = new JButton("Down");
 
-        jbtnUp.addActionListener(this);
-        jbtnDown.addActionListener(this);
+        jbtnUp.addActionListener((ae) -> jlab.setText("You pressed Up" + " " + this.toString()));
+        jbtnDown.addActionListener((ae) -> jlab.setText("You pressed Down" + " " + this.toString()));
 
         jfrm.add(jbtnUp);
         jfrm.add(jbtnDown);
@@ -37,14 +37,6 @@ public class Ch16p554ButtonDemo implements ActionListener {
 
         jfrm.setVisible(true);
 
-    }
-
-    @Override
-    public void actionPerformed(ActionEvent ae) {
-        if (ae.getActionCommand().equals("Up"))
-            jlab.setText("You pressed Up" + " " + this.toString());
-        else
-            jlab.setText("You pressed Down" + " " + this.toString());
     }
 
     public static void main(String[] args) {
