@@ -48,11 +48,6 @@ public class Ch16p554ButtonDemo implements ActionListener {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new Ch16p554ButtonDemo();
-            }
-        });
+        SwingUtilities.invokeLater(() -> new Ch16p554ButtonDemo());
     }
 }
